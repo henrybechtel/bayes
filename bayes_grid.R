@@ -1,7 +1,8 @@
 # Generate test data
 n_obs = 25
-x = 2 + rnorm(n_obs)
-y = 4 + 3*x + 2*rnorm(n_obs)
+x1 = 2 + 1.5*rnorm(n_obs)
+x2 = 8 + 2*rnorm(n_obs)
+y = 4 + 3*x1 + 2*x2 + 2*rnorm(n_obs)
 
 # Setting up grid
 b0 = seq(from=-1, to=10, length.out = 50)
