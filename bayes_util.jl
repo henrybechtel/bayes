@@ -1,4 +1,3 @@
-module Thames
 
 function normal_pdf(x, mu=0, sig=1)
     """
@@ -51,6 +50,4 @@ function linear_regression_1(x, y, hyp_b0, hyp_b1, hyp_sig)
     println("MAP Estimate for b0 is: ", hyp_b0[idx[1]])
     println("MAP Estimate for b1 is: ", hyp_b1[idx[2]])
     println("MAP Estimate for sigma is: ", hyp_sig[idx[3]])
-end
-
 end
